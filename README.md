@@ -1,8 +1,8 @@
-# Lab 2 - Calculadora Digital em FPGA (Lógica Reconfigurável)
+# Logica Reconfiguravel - Calculadora Digital em FPGA
 
 Este repositório contém o projeto de uma calculadora aritmética digital com exibição dinâmica em display de 7 segmentos de 4 dígitos, desenvolvido para a disciplina de **Lógica Reconfigurável** utilizando a placa de desenvolvimento **Digilent Nexys 3** com FPGA **Xilinx Spartan-6 (XC6SLX16-CSG324)**.
 
-O projeto inclui implementações completas em **VHDL** e em **Verilog**, arquivos de restrições de pinos (UCF), arquivos de projeto do Xilinx ISE 14.7 e bitstreams prontos para gravação.
+O projeto inclui implementações completas em **VHDL** e em **Verilog**, arquivos de restrições de pinos (UCF), arquivos de projeto do Xilinx ISE 14.7 e bitstream pronto para gravação.
 
 ---
 
