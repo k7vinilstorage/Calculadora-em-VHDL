@@ -29,8 +29,8 @@ BEGIN
                     "0110001" WHEN "1100",  --c
                     "1000010" WHEN "1101",  --d
                     "0110000" WHEN "1110",  --e
-                    "0111000" WHEN "1111",  --f
-                    "1111110" WHEN OTHERS;  --blank when not a digit
+                    "1111110" WHEN "1111";  --f
+ 
   
   WITH sw(6 downto 5) SELECT
 	an 		<= 	"0111" WHEN "00",

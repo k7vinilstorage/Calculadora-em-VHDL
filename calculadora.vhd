@@ -26,9 +26,9 @@ signal		A,B,num,x,y,t,w,z	:	natural;
 begin
 	A   <= to_integer(unsigned(sw(6 downto 0))) when (sw(7) = '0');
 	B   <= to_integer(unsigned(sw(6 downto 0))) when (sw(7) = '1');
-	x   <= (a-b) when (a>=b) else (b-a);
-	y   <= (a/b) when (a>=b) else 14000;
-	t   <= (b/a) when (a<=b) else 14000;
+	x   <= (a-b) when (a>=b) else 15000 + (b-a);
+	y   <= (a/b) when (b>0) else 14000;
+	t   <= (b/a) when (a>0) else 14000;
 	w   <= (a+10000) when sw(7)='0' else (b+11000);
 	z   <= (a+10000) when sw(7)='1' else (b+11000);
 
